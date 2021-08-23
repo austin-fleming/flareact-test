@@ -1,0 +1,8 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    background-color: var(--background-color);
+    padding: 0 var(--site-margin);
+}

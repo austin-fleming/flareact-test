@@ -1,0 +1,24 @@
+{
+  "name": "flareact-project",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A template for kickstarting a Flareact project",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "flareact dev",
+    "build": "flareact build",
+    "deploy": "flareact publish"
+  },
+  "dependencies": {
+    "flareact": "^1.2.1",
+    "postcss": "^8.2.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19",
+    "typescript-plugin-css-modules": "^3.4.0"
+  }
+}

@@ -1,0 +1,27 @@
+:root {
+    font-family: sans-serif;
+
+    --background-color: white;
+    --primary-text-color: black;
+
+    --base-unit: 1rem;
+    --site-margin: calc(var(--base-unit) * 2);
+}
+
+[data-theme="dark"] {
+    --background-color: black;
+    --primary-text-color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+#__flareact {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
