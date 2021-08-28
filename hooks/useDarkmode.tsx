@@ -12,6 +12,8 @@ export const DarkmodeProvider = ({children}:{children:any}) => {
 
     const toggleDarkmode = () => {
         setDarkmode(!isDarkmode)
+        
+        document.body.dataset.theme = isDarkmode ? 'dark' : 'light'
     }
 
     return <DarkmodeContext.Provider value={{isDarkmode, toggleDarkmode}}>{children}</DarkmodeContext.Provider>
