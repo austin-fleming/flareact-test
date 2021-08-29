@@ -6,9 +6,12 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "dev": "flareact dev",
-    "build": "flareact build",
-    "deploy": "flareact publish"
+    "dev:web": "flareact dev",
+    "build:web": "flareact build",
+    "deploy:web": "flareact publish",
+    "dev:studio": "cd studio && yarn dev",
+    "build:studio": "cd studio && yarn build",
+    "deploy:studio": "cd studio && sanity deploy"
   },
   "dependencies": {
     "classnames": "^2.3.1",

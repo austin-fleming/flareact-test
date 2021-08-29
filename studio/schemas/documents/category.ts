@@ -7,6 +7,8 @@ export default {
       name: 'title',
       title: 'Title',
       type: 'string',
+      codegen: { required: true },
+      validation: (Rule) => Rule.required().error('"Title" is missing.'),
     },
     {
       name: 'description',
